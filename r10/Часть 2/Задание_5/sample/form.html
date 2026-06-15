@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Программирование на языке PHP</title>
+</head>
+<body>
+    
+    <h1>Отправка данных на сервер</h1>
+    <h2>Еще о формах</h2>
+    <hr>
+    <h2>Запишитесь на курсы дополнительного образования</h2>
+    
+    <form action="example_8.php" method="post">
+        Имя: <input type="text" name="name"><p>
+        E-mail: <input type="email" name="email"><p>
+        
+        Выберите интересующий вас курс:<br />
+        <input type="checkbox" name="lang[]" value="java" /> Разработчик игр на Java <br />
+        <input type="checkbox" name="lang[]" value="php" /> Программирование на PHP <br />
+        <input type="checkbox" name="lang[]" value="python" /> Занимательный Python <br />
+        <input type="checkbox" name="lang[]" value="perl" /> Язык программирования Perl за 24 часа <br />
+        <input type="checkbox" name="lang[]" value="javascript" /> Javascript в примерах<p>
+        
+        Выберите форму обучения:<br />
+        <input type="radio" name="form" value="очное" /> очное <br />
+        <input type="radio" name="form" value="очно-заочное" /> очно-заочное <br />
+        <input type="radio" name="form" value="заочное" /> заочное <br />    
+        <input type="radio" name="form" value="дистанционное" /> дистанционное <p>        
+
+        Какие направления ИТ вас могли бы заинтересовать:<br />
+        <select name="interes[]" size="5" multiple>
+            <option value="Веб и интернет-технологии">Веб и интернет-технологии</option>
+            <option value="Разработка программ для компьютеров и смартфонов">Разработка программ для компьютеров и смартфонов</option>
+            <option value="Программирование роботов и умных устройств">Программирование роботов и умных устройств</option>
+            <option value="Искусственный интеллект и машинное обучение">Искусственный интеллект и машинное обучение</option>
+            <option value="Инфраструктура — сети, серверы, администрирование">Инфраструктура — сети, серверы, администрирование</option>
+        </select><p>
+
+        <input type="submit">
+    </form>
+
+</body>
+</html>
