@@ -1,0 +1,115 @@
+/* Простой фон */
+html, body {
+    background-color: #0D1A2F;
+    background-image: url('1234gf.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+/* Шапка */
+.navbar, header, .bg-dark {
+    background-color: #4e0158;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+}
+
+.navbar-brand, header a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+    padding: 8px;
+}
+
+.nav-link:hover {
+    background-color: rgba(9, 216, 199, 0.1);
+}
+
+
+/* Карточки */
+.stat-card, main .bg-white {
+    background-color: rgba(23, 54, 79, 0.8);
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(9, 216, 199, 0.2);
+}
+
+/* Текст */
+h2, h3, .text-white, .fw-bold {
+    color: white;
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead th {
+    background-color: #0D1A2F;
+    color: #031110;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ff0000;
+}
+
+table tbody td {
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid rgba(9, 216, 199, 0.1);
+}
+
+table tbody tr:hover td {
+    background-color: rgba(9, 216, 199, 0.05);
+}
+
+.badge {
+    background-color: #0D1A2F;
+    color: #ffffff;
+    padding: 3px 8px;
+}
+
+/* Кнопки */
+.btn-primary {
+    background-color: #09D8C7;
+    color: #0D1A2F;
+    padding: 6px 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #0D1A2F;
+}
+
+.btn-danger {
+    background-color: #BD0927;
+    color: white;
+    padding: 6px 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #500A1F;
+}
+
+/* Подвал */
+footer {
+    background-color: #a300d4;
+    padding: 15px;
+    border-top: 1px solid #000000;
+}
